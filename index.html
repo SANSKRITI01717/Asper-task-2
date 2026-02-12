@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice page</title>
+    <style>
+        * {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .img {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            box-shadow: 0px 0px 13px white;
+        }
+
+        .img img {
+            height: 250px;
+            border-radius: 7px;
+
+        }
+
+        .video {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            box-shadow: 0px 0px 13px white;
+        }
+
+        .audio {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            box-shadow: 0px 0px 13px white;
+        }
+
+        .box1 {
+
+            box-shadow: 0 0 15px cyan;
+
+        }
+
+        .box2 {
+            box-shadow: 0 0 15px rgb(247, 6, 255);
+        }
+
+        .box3 {
+            box-shadow: 0 0 15px cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Media Page</h1>
+
+    <h2>Image</h2>
+    <div class="img">
+        <img src="./image/Screenshot 2026-02-12 124448.png" width="300">
+        <img src="./image/Screenshot 2026-02-12 124517.png" width="300">
+        <img src="./image/Screenshot 2026-02-12 124540.png" width="300">
+
+    </div>
+
+
+    <h2>Video</h2>
+    <div class="video">
+        <div class="1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GCJnG6DYEeg?si=6gAPCJOPn8iu463I"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="2"><iframe width="560" height="315"
+                src="https://www.youtube.com/embed/miiLadou1cw?si=JOqWR8jYi4ik-CP5" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+    </div>
+
+
+    <h2>Audio</h2>
+    <div class="audio">
+        <div class="box1">
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="box2">
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="box3">
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
